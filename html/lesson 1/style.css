@@ -1,0 +1,31 @@
+body{
+    background: cornsilk;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    background: coral;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background: cornflowerblue;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 1px solid red;
+}
+
+li {
+    text-align: center;
+}
