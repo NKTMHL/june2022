@@ -1,0 +1,49 @@
+/*Стилизация проекта -*/
+/*post-details.html - блок с информацией про пост вверху. Комментарии - по 4 в ряд.*/
+
+
+.postBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postCard {
+    height: 60%;
+    /*width: 90%;*/
+    font-size: 20px;
+    border-radius: 15px;
+    border: 5px dotted #3c4fe0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.commentsBtn {
+    background: cornsilk;
+    height: 40px;
+    /*width: 90%;*/
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: coral;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.commentsBlock {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.commentsCard {
+    box-sizing: border-box;
+    width: 22%;
+    margin: 10px;
+    padding: 10px;
+    border: 5px dotted #3c4fe0;
+}
